@@ -1,0 +1,111 @@
+/* ======================================= */
+            /* COMMON CSS START */
+/* ======================================= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/* ======================================= */
+            /* COMMON CSS END */
+/* ======================================= */
+
+body{
+    background: #222222;
+}
+
+#main{
+    width: 1440px;
+    background: hsl(233, 47%, 7%);
+    padding: 175px 165px;
+    margin: 65px auto;
+}
+
+.card{
+    display: flex;
+    background: hsl(244, 38%, 16%);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left_col{
+    width: 50%;
+}
+
+.right_col{
+    width: 50%;
+}
+
+/* ==== LEFT COLUMN FIRST ROW ==== */
+
+.row_one{
+    text-align: left;
+    padding: 80px 70px;
+}
+
+.row_one h2{
+    font-size: 35px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.row_one h2 span{
+    color: #ab60dc;
+}
+
+.row_one p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: sans-serif;
+    line-height: 20px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+
+/* ==== LEFT COLUMN SECOND ROW ==== */
+
+.row_two{
+    display: flex;
+    text-align: left;
+    padding: 0 70px 65px;
+}
+
+.col{
+    padding-right: 65px;
+}
+
+.row_two:nth-child(3){
+    padding-right: 0;
+}
+
+.col h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+.col h5{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+/* 
+       <div class="row_two">
+          <div class="col">
+            <h4>10k+</h4>
+            <h5>companies</h5>
+          </div>
+*/
+
+/* 
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+*/
