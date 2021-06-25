@@ -100,12 +100,26 @@ body{
 
 .right_col{
     display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .right_col img{
     width: 100%;
     max-width: 100%;
 }
 
+.right_col::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(95, 28, 136, 0.5);
+
+}
 
 /* 
 
