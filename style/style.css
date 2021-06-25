@@ -18,10 +18,13 @@ body{
 }
 
 #main{
+    position: absolute;
     width: 1440px;
     background: hsl(233, 47%, 7%);
-    padding: 175px 165px;
-    margin: 65px auto;
+    padding: 160px 165px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card{
@@ -49,7 +52,7 @@ body{
 .row_one h2{
     font-size: 35px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-bottom: 30px;
 }
 
@@ -60,10 +63,9 @@ body{
 .row_one p{
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 20px;
-    padding-bottom: 30px;
-    padding-right: 100px;
+    padding-right: 100px;    
 }
 
 /* ==== LEFT COLUMN SECOND ROW ==== */
@@ -85,6 +87,7 @@ body{
 .col h4{
     color: #fff;
     font-size: 25px;
+    font-family: 'Inter', sans-serif;
 }
 
 .col h5{
@@ -93,19 +96,20 @@ body{
     padding-top: 6px;
 }
 
-/* 
-       <div class="row_two">
-          <div class="col">
-            <h4>10k+</h4>
-            <h5>companies</h5>
-          </div>
-*/
+/* ==== RIGHT COLUMN SECOND ROW ==== */
+
+.right_col{
+    display: flex;
+}
+.right_col img{
+    width: 100%;
+    max-width: 100%;
+}
+
 
 /* 
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700
 
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Inter', sans-serif;
 
 */
